@@ -7,8 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="clr-namespace:ToolshopApp3.ViewModel;assembly=ToolshopApp3.ViewModel"
     Title="ShellView"
-    Width="1200"
-    Height="900"
+    Width="Auto"
+    Height="Auto"
+    d:Height="900"
+    d:Width="1200"
     DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=ShellViewModel}"
     mc:Ignorable="d">
     <Grid Background="Black">
@@ -19,12 +21,16 @@
         <StackPanel Orientation="Horizontal">
             <Button>New Task</Button>
             <Button Command="{Binding ShowViewCommand}" CommandParameter="CallendarView.xaml">Calendar View</Button>
-            <Button>All Tasks</Button>
+            <Button Command="{Binding ShowViewCommand}" CommandParameter="AllTasksView.xaml">All Tasks</Button>
             <Button>List of Dishwashers</Button>
             <Button>User Data</Button>
             <Button>Administartor</Button>
         </StackPanel>
-        <Frame Grid.Row="1" Source="{Binding SelectedView}" />
+
+        <Frame
+            Grid.Row="1"
+            NavigationUIVisibility="Hidden"
+            Source="{Binding SelectedView}" />
 
     </Grid>
 </Window>

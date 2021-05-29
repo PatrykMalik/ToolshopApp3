@@ -50,7 +50,7 @@
         <Setter Property="CanUserAddRows" Value="False" />
         <Setter Property="Background" Value="Gray" />
         <Setter Property="AutoGenerateColumns" Value="False" />
-        <Style.Triggers>
+        <!--<Style.Triggers>
 
             <DataTrigger Binding="{Binding Status}" Value="Accepted">
                 <Setter Property="Background" Value="Gold" />
@@ -58,7 +58,7 @@
             <DataTrigger Binding="{Binding Status}" Value="Closed">
                 <Setter Property="Background" Value="LightGreen" />
             </DataTrigger>
-        </Style.Triggers>
+        </Style.Triggers>-->
     </Style>
 
     <!--<Style BasedOn="{StaticResource DefaultButtonStyle}" TargetType="Button" />-->

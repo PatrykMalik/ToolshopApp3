@@ -20,5 +20,8 @@ namespace ToolshopApp3.WpfClient
             container = containerBuilder.Build();
         }
         public ShellViewModel ShellViewModel => container.Resolve<ShellViewModel>();
+         
+        public CallendarViewModel CallendarViewModel => container.Resolve<CallendarViewModel>();
+        public AllTasksViewModel AllTasksViewModel => container.Resolve<AllTasksViewModel>();
     }
 }
