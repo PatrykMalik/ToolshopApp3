@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ToolshopApp3.WpfClient
+namespace ToolshopApp3.WpfClient.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CallendarView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CallendarView : Page
     {
-        public MainWindow()
+        public CallendarView()
         {
             InitializeComponent();
         }

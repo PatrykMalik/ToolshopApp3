@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--<DataGrid.Columns>
+        <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}" IsReadOnly="True"/>
+        <DataGridTextColumn Header="User" Binding="{Binding Path=User}" IsReadOnly="True"/>
+        <DataGridTextColumn Header="Status" Binding="{Binding Path=Status}" IsReadOnly="True"/>
+        <DataGridTextColumn Header="Project" Binding="{Binding Path=Project}" IsReadOnly="True"/>
+        <DataGridTextColumn Header="Description" Binding="{Binding Path=Description}" IsReadOnly="True">
+            <DataGridTextColumn.ElementStyle>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="MaxHeight" Value="100" />
+                    <Setter Property="TextWrapping" Value="Wrap"/>
+                </Style>
+            </DataGridTextColumn.ElementStyle>
+        </DataGridTextColumn>
+        <DataGridTextColumn Header="Deadline" Binding="{Binding Path=Date, StringFormat=d}" IsReadOnly="True"/>
+        <DataGridTextColumn Header="Created" Binding="{Binding Path=CreationTime, StringFormat=d}" IsReadOnly="True"/>
+    </DataGrid.Columns>-->
+</ResourceDictionary>

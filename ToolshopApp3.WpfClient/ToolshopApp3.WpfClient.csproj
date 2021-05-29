@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToolshopApp3.ViewModel\ToolshopApp3.ViewModel.csproj" />
+  </ItemGroup>
+
 </Project>
